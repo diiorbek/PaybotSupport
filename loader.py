@@ -6,7 +6,7 @@ from aiogram.enums import ParseMode
 ADMINS = config.ADMINS
 TOKEN = config.BOT_TOKEN
 CHANNELS = config.CHANNELS
-
+GROUPS = config.GROUPS
 
 bot = Bot(TOKEN, parse_mode=ParseMode.HTML)
 db = Database(path_to_db="main.db")
